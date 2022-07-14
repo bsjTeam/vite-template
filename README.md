@@ -42,7 +42,7 @@
 
 
 ```bash
-npx degit bsjTeam/viteTeamplate projectName
+npx degit bsjTeam/vite-template projectName
 cd projectName
 pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 ```
