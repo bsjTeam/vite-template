@@ -11,24 +11,39 @@
 </h6>
 
 
-## Features
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild)
-- 🗂 [文件路由](./src/pages)
+更新时间 2023年12月13日
 
-- 🍍 [使用 Pinia 的状态管理](https://pinia.esm.dev/)
+#### 内容
 
-- 📦 [组件自动化加载](./src/components)
+1. 🚀Vite升级5.0
+2. 🚀Vue3升级3.3.11
+3. ✨新增unplugin-icons/vite插件
+4. ✨新增vite-svg-loader插件
+5. ✨新增EsLint规范
+6. ✨新增Prettier规范
+7. ✨新增GitCommit规范
+8. ✨新增standard-version 版本控制/生成changeLog
 
-- 🔧 [Eslint]([./src/components](https://github.com/airbnb/javascript))-airbnb代码规范
 
-- 🔥 [`<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
+关于commit提交规范
 
-- 📥  直接使用 Composition API 无需引入
+```js
+// feat：新功能（feature）
+// fix：修补bug
+// docs：文档（documentation）
+// style： 格式（不影响代码运行的变动）
+// refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+// test：增加测试
+// chore：构建过程或辅助工具的变动
+// revert：回滚
+// build：打包
+// ci：持续集成
+// perf：性能优化
+// init：初始化
+```
 
-- 🦾 TypeScript
 
-- ☁️ [自动生成接口+Interface类型](https://dd0vdi.yuque.com/docs/share/12c50102-172d-4a59-855f-7f0f82102569?#《api2code》密码：xcgp)
-<br>
+
 
 ## 预配置
 
@@ -46,6 +61,3 @@ npx degit bsjTeam/vite-template projectName
 cd projectName
 pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 ```
-
-
-
